@@ -154,7 +154,7 @@ const App = () => {
                         })}
 
                     <div className="col-sm-4 mb-2">
-                        <div className="card">
+                        <div className="card" style={{height: "275px"}}>
                             <div className="card-body">
                                 <img
                                     onClick={() => setShowModal(true)}
